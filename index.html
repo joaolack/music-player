@@ -14,13 +14,18 @@
         </div>    
         
         <img class="album-cover" src="/images/oasis-capa-definitely-maybe.jpg" alt="Oasis - Definitely Maybe">
+        <audio id="audio" src=""></audio>
 
         <div id="below-cover">
             <div id="song-info">
-                <h2>Slide Away - Remastered</h2>
-                <h4>Oasis</h4>
+                <h2 id="song-name">Nome da música</h2>
+                <h4 id="artist-name">Artista</h4>
             </div>    
             <div id="like" class="button"><i class="bi bi-heart"></i></div>
+        </div>
+
+        <div id="progress-bar">
+            <div id="current-progress"></div>
         </div>
 
         <div class="controls">
@@ -31,6 +36,7 @@
 
             <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
         </div>
+        <script src="/index.js"></script>
     </main>        
 </body>
 </html>
