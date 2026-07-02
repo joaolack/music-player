@@ -17,6 +17,11 @@ body {
     align-items: center;
 }
 
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
 
 .title{
     text-align: center;

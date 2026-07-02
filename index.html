@@ -13,15 +13,15 @@
             <h4>Playlist joaolack</h4>
         </div>    
         
-        <img class="album-cover" src="/images/oasis-capa-definitely-maybe.jpg" alt="Oasis - Definitely Maybe">
-        <audio id="audio" src=""></audio>
+        <img class="album-cover" id="cover" src="/images/oasis-capa-definitely-maybe.jpg" alt="Disc cover.">
+        <audio id="audio" src="audios/slide-away.mp3"></audio>
 
         <div id="below-cover">
             <div id="song-info">
                 <h2 id="song-name">Nome da música</h2>
                 <h4 id="artist-name">Artista</h4>
             </div>    
-            <div id="like" class="button"><i class="bi bi-heart"></i></div>
+            <button id="like" class="button"><i class="bi bi-heart"></i></button>
         </div>
 
         <div id="progress-bar">
@@ -29,12 +29,12 @@
         </div>
 
         <div class="controls">
-            <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
-            <div id="previous" class=" button button-navigate"><i class="bi bi-skip-start-fill"></i></div>
-            <div id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></div>
-            <div id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></div>
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class=" button button-navigate"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play" class="button button-biggest"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button button-navigate"><i class="bi bi-skip-end-fill"></i></button>
 
-            <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
         </div>
         <script src="/index.js"></script>
     </main>        
